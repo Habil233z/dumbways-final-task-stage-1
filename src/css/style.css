@@ -20,29 +20,32 @@ body{
 
 .navbar {
     z-index: 2;
-    background-color: beige;
+    background-color: white;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
     width: 100%;
-    border-bottom: 5px solid black;
 }
 
 #textIcon {
     padding-top: 10px;
     height: 45px;
-    padding-left: 20px;
+    margin-left: 10%;
+}
+
+.navbarButtonContainer {
+    margin-right: 10%;
 }
 
 #navbarUl{
+    left: 200px;
     list-style: none;
-    width: 300px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
-    padding-right:210px;
     gap: 30px;
 }
 
@@ -50,7 +53,7 @@ body{
     height: 50px;
     width: 100px;
     border: none;
-    background-color: beige;
+    background-color: white;
     font-size: medium;
 }
 
@@ -59,12 +62,14 @@ body{
 }
 
 .main {
-    margin: 2%;
-    background-color: gray;
-    border: 4px solid black;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     height: 500px;
     display: flex;
     justify-content: space-around;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .identity {
@@ -74,11 +79,10 @@ body{
 }
 
 #profilePic{
-    width: 306px;
-    height: 408px;
-    border: 2px solid black;
+    width: 272px;
+    height: 362px;
     border-radius: 5%;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .introduction {
@@ -99,9 +103,10 @@ body{
 
 .reachOutButton {
     font-size: larger;
-    background-color: greenyellow;
+    background-color: #9AD872;
     border-radius: 10px;
     padding-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .reachOutIcon {
@@ -109,23 +114,21 @@ body{
 }
 
 .h1Title {
-    margin-left: 2%;
+    margin-left: 10%;
 }
 
 .carouselContainer {
-    background-color: gray;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 5px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .carousel {
-    border-left: 5px solid black;
-    border-right: 5px solid black;
     display: flex;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
     overflow-x: auto;
 }
 
@@ -161,12 +164,9 @@ body{
 }
 
 .workExperiencesContainer {
-    border: 5px solid black;
-    background-color: gray;
     min-height: 20px;
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 10px;
     padding-bottom: 20px;
     display: flex;
@@ -174,11 +174,13 @@ body{
 }
 
 .workCard {
+    background-color: #EEEEEE;
     display: flex;
     width: 96%;
     justify-content: space-between;
     margin-bottom: 50px;
     padding-left: 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -195,18 +197,14 @@ body{
 
 .workingTimeArea {
     flex-direction: row-reverse;
+    margin-right: 20px;
 }
 
 .myProjects {
-    background-color: gray;
-    border: 5px solid black;
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     flex-direction: column;
-    
-    
 }
 
 .projectsContainer {
@@ -219,10 +217,12 @@ body{
 .projectsCard {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 500px;
     align-items: center;
-    border: 10px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projectImage {
@@ -285,8 +285,8 @@ body{
     width: 100%;
     height: 50px;
     margin-top: 70px;
-    border-top: 5px solid black;
-    background-color: gray;
+    border-top: 1px solid gray;
+    background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
     align-items: center;

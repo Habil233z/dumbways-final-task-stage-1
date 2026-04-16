@@ -68,7 +68,9 @@
         <div class="textArea">
             <h2>{{role}}</h2>
             <h3>{{name}}</h3>
-            {{{task}}}
+            {{#each task}}
+                <li>{{this}}</li>
+            {{/each}}
         </div>
         </div>
         
@@ -81,16 +83,27 @@
 
 <h1 class="h1Title">My projects</h1>
 
+<div class="myProjects">
 <div class="projectsContainer">
     {{#each myProjects}}
     <div class="projectsCard">
         <img src="{{image}}" alt="placeholder" class="projectImage">
         <div class="projectIntro">
+            <div class="projectIntroText">
             <p>{{description}}</p>
+            </div>
         </div>
-        <div class="projectTags">
-            {{tag}}
+        <div class="projectTagsContainer">
+            {{#each tag}}
+                <div class="projectTags">
+                    {{this}}
+                </div>
+            {{/each}}
+        </div>
+        <div class="projectButtonArea">
+        <a href="{{githubLink}}"><button class="toGithub">To this project github</button></a>
         </div>
     </div>
     {{/each}}
+</div>
 </div>

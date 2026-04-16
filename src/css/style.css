@@ -153,39 +153,61 @@ body{
     margin-top: 20px;
     height: 100px;
     width: 100px;
+    margin-right: 10px;
 }
 
 .workingTimeArea {
     flex-direction: row-reverse;
 }
 
-.projectsContainer {
-    min-height: 300px;
+.myProjects {
     background-color: gray;
     border: 5px solid black;
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
     display: flex;
+    flex-direction: column;
+
+    
+}
+
+.projectsContainer {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .projectsCard {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    height: 350px;
+    margin-top: 50px;
     width: 500px;
     align-items: center;
+    border: 10px solid black;
 }
 
 .projectImage {
+    margin-top: 20px;
     height: 200px;
 }
 
 .projectIntro {
-    height: 150px;
+    height: 100px;
+    margin: 10px;
+}
+
+.projectIntroText {
+    height: 100%;
     overflow: hidden;
+}
+
+.projectTagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .projectTags {
@@ -201,7 +223,12 @@ body{
     border: 2px solid black;
 }
 
-
+.toGithub {
+    margin: 10px;
+    background-color: blue;
+    font-size: large;
+    
+}
 
 
 

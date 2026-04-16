@@ -34,21 +34,21 @@ const workExperiences = [
     image : "",
     role : "Placeholder 1",
     name : "corporation name placeholder 1",
-    task : "<li>placeholder1</li><li>placeholder1</li><li>placeholder1</li><li>placeholder1</li>",
+    task : ["placeholder1", "placeholder2", "placeholder3"],
     time : "2026-...."
   },
   {
     image : "",
     role : "Placeholder 2",
     name : "corporation name placeholder 2",
-    task : "<li>placeholder2</li><li>placeholder2</li><li>placeholder2</li><li>placeholder2</li>",
+    task : ["placeholder4", "placeholder5", "placeholder6"],
     time : "2026-...."
   },
   {
     image : "",
     role : "Placeholder 3",
     name : "corporation name placeholder 3",
-    task : "<li>placeholder3</li><li>placeholder3</li><li>placeholder3</li><li>placeholder3</li>",
+    task : ["placeholder7", "placeholder8", "placeholder9"],
     time : "2026-...."
   },
 ]
@@ -58,12 +58,18 @@ const myProjects = [
     image: "",
     name : "Project placeholder",
     description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc risus. Sed blandit gravida diam non vulputate. Curabitur consectetur felis sit amet pretium commodo. Morbi tristique augue ut pretium molestie. Duis quis hendrerit turpis. Curabitur vestibulum leo odio, quis vestibulum nulla sagittis a. Fusce consectetur volutpat turpis, vitae iaculis elit laoreet at. Integer in elementum lectus, sit amet auctor dui. Mauris cursus nisl vitae odio viverra lacinia. Etiam a orci lectus. Mauris nisi nisl, imperdiet id congue sit amet, vehicula eu metus. Mauris bibendum turpis ac mollis tristique.",
-    tag : "Front-end"
+    tag : ["Front-end"]
   },
   {
     image: "",
     name : "Project placeholder",
     description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc risus. Sed blandit gravida diam non vulputate. Curabitur consectetur felis sit amet pretium commodo. Morbi tristique augue ut pretium molestie. Duis quis hendrerit turpis. Curabitur vestibulum leo odio, quis vestibulum nulla sagittis a. Fusce consectetur volutpat turpis, vitae iaculis elit laoreet at. Integer in elementum lectus, sit amet auctor dui. Mauris cursus nisl vitae odio viverra lacinia. Etiam a orci lectus. Mauris nisi nisl, imperdiet id congue sit amet, vehicula eu metus. Mauris bibendum turpis ac mollis tristique.",
-    tag : "Front-end"
+    tag : ["Front-end", "Back-end"]
+  },
+  {
+    image: "",
+    name : "Project placeholder",
+    description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc risus. Sed blandit gravida diam non vulputate. Curabitur consectetur felis sit amet pretium commodo. Morbi tristique augue ut pretium molestie. Duis quis hendrerit turpis. Curabitur vestibulum leo odio, quis vestibulum nulla sagittis a. Fusce consectetur volutpat turpis, vitae iaculis elit laoreet at. Integer in elementum lectus, sit amet auctor dui. Mauris cursus nisl vitae odio viverra lacinia. Etiam a orci lectus. Mauris nisi nisl, imperdiet id congue sit amet, vehicula eu metus. Mauris bibendum turpis ac mollis tristique.",
+    tag : ["Front-end", "Back-end"]
   }
 ]

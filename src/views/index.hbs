@@ -1,0 +1,96 @@
+<div class="padding"></div>
+
+<div class="main">
+    <div class="identity">
+        <img src="../image/IMG_20260326_104443_304.jpg" alt="test" id="profilePic">
+    </div>
+    <div class="introduction">
+        <h2>Hi, i'am Habil</h2>
+        <p>        
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur massa eu sem dignissim, eget iaculis felis maximus. Quisque dictum dapibus eros. Etiam fringilla justo quis vulputate pellentesque. Phasellus rutrum massa eget finibus posuere. Quisque tellus risus, pretium dignissim arcu nec, iaculis bibendum lorem. Phasellus nec vestibulum diam. Pellentesque congue nisi eget lacus pulvinar pulvinar.
+        </p>
+        <h5 id="location">
+            <img src="../image/icons/home.png" id="homeIcon"> Depok, Jawa Barat, Indonesia
+        </h5>
+    </div>
+</div>
+
+<h1 class="h1Title">Tech stack - Tools I use</h1>
+
+<div class="carouselContainer">
+    <div class="carousel">
+    <div class="carouselGroup">
+        <div class="carouselCard"><img src="../image/icons/next-js.png" alt="NextJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
+    </div>
+    <div class="carouselGroup">
+        <div class="carouselCard"><img src="../image/icons/next-js.png" alt="NextJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
+    </div>
+    <div class="carouselGroup">
+        <div class="carouselCard"><img src="../image/icons/next-js.png" alt="NextJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
+    </div>
+    <div class="carouselGroup">
+        <div class="carouselCard"><img src="../image/icons/next-js.png" alt="NextJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
+        <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
+    </div>
+    </div>
+</div>
+
+<h1 class="h1Title">Works Experience :</h1>
+
+<div class="workExperiencesContainer">
+    {{#each workExperiences}}
+    <div class="workCard">
+        <div class="corporation">
+        <img src="{{image}}" alt="placeholder" class="workImage">
+        <div class="textArea">
+            <h2>{{role}}</h2>
+            <h3>{{name}}</h3>
+            {{{task}}}
+        </div>
+        </div>
+        
+        <div class="workingTimeArea">
+            <h5>{{time}}</h5>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<h1 class="h1Title">My projects</h1>
+
+<div class="projectsContainer">
+    {{#each myProjects}}
+    <div class="projectsCard">
+        <img src="{{image}}" alt="placeholder" class="projectImage">
+        <div class="projectIntro">
+            <p>{{description}}</p>
+        </div>
+        <div class="projectTags">
+            {{tag}}
+        </div>
+    </div>
+    {{/each}}
+</div>

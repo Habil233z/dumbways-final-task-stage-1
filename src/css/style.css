@@ -24,6 +24,7 @@ html {
     justify-content: center;
     align-items: center;
     scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #techStack {
@@ -133,6 +134,16 @@ body{
     flex-direction: column;
 }
 
+.h2Container {
+    margin: 0px;
+    margin-top: 23px;
+}
+
+.pContainer {
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
 #location {
     display: flex;
     align-items: center;
@@ -162,13 +173,14 @@ body{
 }
 
 .address {
-    
+    padding-top: 20px;
 }
 
 #location {
     background-color: var(--carouser-color);
-    width: 230px;
+    width: 250px;
     color: black;
+    border-radius: 5px;
 }
 
 .carouselContainer {
@@ -189,7 +201,7 @@ body{
 
 .carouselGroup{
     display: flex;
-    animation: spin 15s infinite linear;
+    animation: spin 30s infinite linear;
 }
 
 .carouselCard {

@@ -39,22 +39,22 @@ const currentYear = new Date().getFullYear();
 const workExperiences = [
   {
     image : "/image/works/Arasaka-Logo.webp",
-    role : "Placeholder 1",
-    name : "corporation name placeholder 1",
+    role : "Intern",
+    name : "Arasaka",
     task : ["placeholder1", "placeholder2", "placeholder3"],
     time : "2026-...."
   },
   {
-    image : "",
-    role : "Placeholder 2",
-    name : "corporation name placeholder 2",
+    image : "/image/works/amd-png-13.png",
+    role : "Junior Engineer",
+    name : "AMD",
     task : ["placeholder4", "placeholder5", "placeholder6"],
     time : "2026-...."
   },
   {
-    image : "",
-    role : "Placeholder 3",
-    name : "corporation name placeholder 3",
+    image : "/image/works/Nvidia-Logo.png",
+    role : "Intern",
+    name : "Nvidia",
     task : ["placeholder7", "placeholder8", "placeholder9"],
     time : "2026-...."
   },

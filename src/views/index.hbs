@@ -64,8 +64,8 @@
         <div class="corporation">
         <img src="{{image}}" alt="placeholder" class="workImage">
         <div class="textArea">
-            <h2>{{role}}</h2>
-            <h3>{{name}}</h3>
+            <h2>Role : {{role}}</h2>
+            <h3>Company Name : {{name}}</h3>
             {{#each task}}
                 <li>{{this}}</li>
             {{/each}}
@@ -92,6 +92,7 @@
             <p>{{description}}</p>
             </div>
         </div>
+        <h6 class="tagH6">Tags:</h6>
         <div class="projectTagsContainer">
             {{#each tag}}
                 <div class="projectTags">

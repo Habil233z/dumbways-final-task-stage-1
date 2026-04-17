@@ -41,21 +41,21 @@ const workExperiences = [
     image : "/image/works/Arasaka-Logo.webp",
     role : "Intern",
     name : "Arasaka",
-    task : ["placeholder1", "placeholder2", "placeholder3"],
+    task : ["Manage Database", "Bug Hunting"],
     time : "2026-...."
   },
   {
     image : "/image/works/amd-png-13.png",
-    role : "Junior Engineer",
+    role : "Junior Software Engineer",
     name : "AMD",
-    task : ["placeholder4", "placeholder5", "placeholder6"],
+    task : ["Bug fixing", "Beta Tester", "Bug Hunting"],
     time : "2026-...."
   },
   {
     image : "/image/works/Nvidia-Logo.png",
     role : "Intern",
     name : "Nvidia",
-    task : ["placeholder7", "placeholder8", "placeholder9"],
+    task : ["Beta Tester", "Bug hunting", "Handle Database"],
     time : "2026-...."
   },
 ]

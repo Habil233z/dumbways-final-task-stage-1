@@ -1,3 +1,5 @@
+<div class="contents">
+
 <div class="padding" id="top"></div>
 
 <div class="main">
@@ -9,10 +11,12 @@
         <p>        
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur massa eu sem dignissim, eget iaculis felis maximus. Quisque dictum dapibus eros. Etiam fringilla justo quis vulputate pellentesque. Phasellus rutrum massa eget finibus posuere. Quisque tellus risus, pretium dignissim arcu nec, iaculis bibendum lorem. Phasellus nec vestibulum diam. Pellentesque congue nisi eget lacus pulvinar pulvinar.
         </p>
-        <h5 id="location">
-            <img src="../image/icons/home.png" id="homeIcon"> Depok, Jawa Barat, Indonesia
-        </h5>
-        <a href="" class="reachOutButton"><button class="reachOutButton"><img src="../image/icons/whatsapp.png" alt="Whatsapp" class="reachOutIcon">Reach out</button></a>
+        <div class="address">
+            <h5 id="location">
+                <img src="../image/icons/home.png" id="homeIcon"> Depok, Jawa Barat, Indonesia
+            </h5>
+        </div>
+        <button class="reachOutButton"><a href="" class="reachOut"><img src="../image/icons/whatsapp.png" alt="Whatsapp" class="reachOutIcon">Reach out</a></button>
     </div>
 </div>
 
@@ -26,7 +30,7 @@
         <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>      
         <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
     </div>
@@ -35,25 +39,16 @@
         <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>     
         <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
     </div>
-    <div class="carouselGroup">
+        <div class="carouselGroup">
         <div class="carouselCard"><img src="../image/icons/next-js.png" alt="NextJS" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
-        <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
-    </div>
-    <div class="carouselGroup">
-        <div class="carouselCard"><img src="../image/icons/next-js.png" alt="NextJS" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/ExpressJS.png" alt="ExpressJS" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/postgresql-logo.png" alt="PostgreSQL" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/nodejs-2-226035.png" alt="NodeJS" class="imgCard"></div>
-        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>        
+        <div class="carouselCard"><img src="../image/icons/javascript-logo-javascript-icon-transparent-free-png.png" alt="Javascript" class="imgCard"></div>  
         <div class="carouselCard"><img src="../image/icons/React-icon.svg.png" alt="React" class="imgCard"></div>
         <div class="carouselCard"><img src="../image/icons/typescript-def.png" alt="Typescript" class="imgCard"></div>
     </div>
@@ -85,7 +80,7 @@
 </div>
 
 <div id="myProjects"></div>
-<h1 class="h1Title">My projects</h1>
+<h1 class="h1Title">My projects :</h1>
 
 <div class="myProjects">
 <div class="projectsContainer">
@@ -104,9 +99,6 @@
                 </div>
             {{/each}}
         </div>
-        <div class="projectButtonArea">
-        <a href="{{githubLink}}"><button class="toGithub">To this project github</button></a>
-        </div>
     </div>
     {{/each}}
 </div>
@@ -114,4 +106,6 @@
 
 <h1 class="contactH1">Let's create something together</h1>
 <p class="contactP">Feel free to reach out if you're looking for a junior developer, have a question, or just want to connect.</p>
-<p class="contactp"><a href=""><img src="../image/icons/email.png" alt="Email" class="contactIcon">habilherdianto233z@gmail.com</a>   |   <a href=""><img src="../image/icons/whatsapp.png" alt="Whatsapp" class="contactIcon">+62 811 1120 503</a></p>
+<div class="contactAddressContainer"><p class="contactAddress"><a href=""><img src="../image/icons/email.png" alt="Email" class="contactIcon">habilherdianto233z@gmail.com</a>   |   <a href=""><img src="../image/icons/whatsapp.png" alt="Whatsapp" class="contactIcon">+62 811 1120 503</a></p></div>
+
+</div>

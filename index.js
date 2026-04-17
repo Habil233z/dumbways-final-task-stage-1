@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.render("index", {
     workExperiences : workExperiences,
     myProjects : myProjects,
-    year: currentYear
+    year: currentYear,
   })
 })
 
@@ -27,11 +27,18 @@ app.listen(3000, () => {
   console.log('Server is running on http://localhost:3000')
 })
 
+function darkMode() {
+  const darkMode = document.body
+  element.classList.toggle("dark-mode")
+  console.log("test")
+}
+
+
 const currentYear = new Date().getFullYear();
 
 const workExperiences = [
   {
-    image : "",
+    image : "/image/works/Arasaka-Logo.webp",
     role : "Placeholder 1",
     name : "corporation name placeholder 1",
     task : ["placeholder1", "placeholder2", "placeholder3"],
@@ -55,21 +62,10 @@ const workExperiences = [
 
 const myProjects = [
   {
-    image: "",
+    image: "/image/my-projects/express-with-database-project.png",
     name : "Project placeholder",
     description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc risus. Sed blandit gravida diam non vulputate. Curabitur consectetur felis sit amet pretium commodo. Morbi tristique augue ut pretium molestie. Duis quis hendrerit turpis. Curabitur vestibulum leo odio, quis vestibulum nulla sagittis a. Fusce consectetur volutpat turpis, vitae iaculis elit laoreet at. Integer in elementum lectus, sit amet auctor dui. Mauris cursus nisl vitae odio viverra lacinia. Etiam a orci lectus. Mauris nisi nisl, imperdiet id congue sit amet, vehicula eu metus. Mauris bibendum turpis ac mollis tristique.",
-    tag : ["Front-end"]
-  },
-  {
-    image: "",
-    name : "Project placeholder",
-    description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc risus. Sed blandit gravida diam non vulputate. Curabitur consectetur felis sit amet pretium commodo. Morbi tristique augue ut pretium molestie. Duis quis hendrerit turpis. Curabitur vestibulum leo odio, quis vestibulum nulla sagittis a. Fusce consectetur volutpat turpis, vitae iaculis elit laoreet at. Integer in elementum lectus, sit amet auctor dui. Mauris cursus nisl vitae odio viverra lacinia. Etiam a orci lectus. Mauris nisi nisl, imperdiet id congue sit amet, vehicula eu metus. Mauris bibendum turpis ac mollis tristique.",
-    tag : ["Front-end", "Back-end"]
-  },
-  {
-    image: "",
-    name : "Project placeholder",
-    description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc risus. Sed blandit gravida diam non vulputate. Curabitur consectetur felis sit amet pretium commodo. Morbi tristique augue ut pretium molestie. Duis quis hendrerit turpis. Curabitur vestibulum leo odio, quis vestibulum nulla sagittis a. Fusce consectetur volutpat turpis, vitae iaculis elit laoreet at. Integer in elementum lectus, sit amet auctor dui. Mauris cursus nisl vitae odio viverra lacinia. Etiam a orci lectus. Mauris nisi nisl, imperdiet id congue sit amet, vehicula eu metus. Mauris bibendum turpis ac mollis tristique.",
-    tag : ["Front-end", "Back-end"]
+    tag : ["Front-end", "Back-end", "Database"],
+    githubLink : "https://github.com/Habil233z/personal-web-project-with-express"
   }
 ]

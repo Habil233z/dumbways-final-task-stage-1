@@ -6,7 +6,7 @@
     --carouselContainerBorder-color: black;
     --carouser-color: white;
     --text-color: black;
-
+    --cardHover-color: whitesmoke;
 }
 
 .lightMode {
@@ -21,6 +21,7 @@
     --carouselContainerBorder-color: black;
     --carouser-color: whitesmoke;
     --text-color: whitesmoke;
+    --cardHover-color: #1B3C53;
     transition: 1000ms;
 }
 
@@ -132,6 +133,11 @@ body{
 
 .contents {
     width: 1000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-bottom: 70px;
 }
 
 .main {
@@ -275,6 +281,11 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.workTask {
+    padding: 0;
+    margin: 0;
+}
+
 .corporation {
     display: flex;
 }
@@ -312,6 +323,11 @@ body{
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projectsCard:hover {
+    background-color: var(--cardHover-color);
+    transition: 300ms;
 }
 
 .cardName {
@@ -403,7 +419,6 @@ body{
 .footerContainer {
     width: 100%;
     height: 50px;
-    margin-top: 70px;
     border-top: 1px solid var(--footerBorderAndTagBorder-color);
     background-color: var(--workCardAndFooter-color);
     display: flex;

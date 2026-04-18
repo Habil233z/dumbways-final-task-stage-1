@@ -85,7 +85,8 @@
 <div class="myProjects">
 <div class="projectsContainer">
     {{#each myProjects}}
-    <div class="projectsCard">
+    <div class="projectsCard" id="projectsCard{{id}}">
+        <h2 class="cardName">{{name}}</h2>
         <img src="{{image}}" alt="placeholder" class="projectImage">
         <div class="projectIntro">
             <div class="projectIntroText">
@@ -110,3 +111,50 @@
 <div class="contactAddressContainer"><p class="contactAddress"><a href=""><img src="../image/icons/email.png" alt="Email" class="contactIcon">habilherdianto233z@gmail.com</a>   |   <a href=""><img src="../image/icons/whatsapp.png" alt="Whatsapp" class="contactIcon">+62 811 1120 503</a></p></div>
 
 </div>
+
+
+{{#each myProjects}}
+<div id="myModal{{id}}" class="modal">
+  <div class="modalContent">
+    <div class="closeDetailButton">
+    <span class="close{{id}} close">&times;</span>
+    </div>
+    <div class="modalInnerbox">
+
+    <h2>{{name}}</h2>
+    <img src="{{image}}" alt="placeholder" class="projectImage">
+    <p class="detailDescription">{{description}}</p>
+    <div class="tagDetailContainer">
+    {{#each tag}}
+        <div class="projectTags">
+            {{this}}
+        </div>
+    {{/each}}
+    </div>
+        <div class="buttonDetailContainer">
+            <a href=""><button class="toGithubButton">To Github</button></a>
+        </div>
+    </div>
+  </div>
+</div>
+{{/each}}
+
+
+
+{{#each myProjects}}
+<script>
+let modal{{id}} = document.getElementById(`myModal{{id}}`);
+
+let project{{id}} = document.getElementById(`projectsCard{{id}}`);
+
+let span{{id}} = document.getElementsByClassName("close{{id}}")[0];
+
+project{{id}}.onclick = function() {
+  modal{{id}}.style.display = "block";
+}
+
+span{{id}}.onclick = function() {
+  modal{{id}}.style.display = "none";
+}
+</script>
+{{/each}}

@@ -66,6 +66,7 @@
         <div class="textArea">
             <h2>Role : {{role}}</h2>
             <h3>Company Name : {{name}}</h3>
+            <h5 class="workTask">Task :</h5>
             {{#each task}}
                 <li>{{this}}</li>
             {{/each}}
@@ -85,7 +86,7 @@
 <div class="myProjects">
 <div class="projectsContainer">
     {{#each myProjects}}
-    <div class="projectsCard" id="projectsCard{{id}}" onclick="showDetail({{id}})">
+    <div class="projectsCard" id="projectsCard{{id}}" onclick="showDetail({{id}})" >
         <h2 class="cardName">{{name}}</h2>
         <img src="{{image}}" alt="placeholder" class="projectImage">
         <div class="projectIntro">
@@ -139,4 +140,4 @@
 </div>
 {{/each}}
 
-<script src="/scripts/detail.js"></script>
+<script src="/scripts/script.js"></script>

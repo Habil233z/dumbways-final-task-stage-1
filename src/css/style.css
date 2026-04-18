@@ -412,8 +412,6 @@ body{
     justify-content: flex-end;
 }
 
-
-
 .modal {
     display: none;
     position: fixed;
@@ -426,6 +424,10 @@ body{
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+}
+
+.show {
+    display: block;
 }
 
 .modalContent {

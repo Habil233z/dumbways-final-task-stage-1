@@ -85,7 +85,7 @@
 <div class="myProjects">
 <div class="projectsContainer">
     {{#each myProjects}}
-    <div class="projectsCard" id="projectsCard{{id}}">
+    <div class="projectsCard" id="projectsCard{{id}}" onclick="showDetail({{id}})">
         <h2 class="cardName">{{name}}</h2>
         <img src="{{image}}" alt="placeholder" class="projectImage">
         <div class="projectIntro">
@@ -114,10 +114,10 @@
 
 
 {{#each myProjects}}
-<div id="myModal{{id}}" class="modal">
+<div id="myModal{{id}}" class="modal" onclick="closeDetailOutside({{id}})">
   <div class="modalContent">
     <div class="closeDetailButton">
-    <span class="close{{id}} close">&times;</span>
+    <span class="close{{id}} close" onclick="closeDetail({{id}})">&times;</span>
     </div>
     <div class="modalInnerbox">
 
@@ -139,22 +139,4 @@
 </div>
 {{/each}}
 
-
-
-{{#each myProjects}}
-<script>
-let modal{{id}} = document.getElementById(`myModal{{id}}`);
-
-let project{{id}} = document.getElementById(`projectsCard{{id}}`);
-
-let span{{id}} = document.getElementsByClassName("close{{id}}")[0];
-
-project{{id}}.onclick = function() {
-  modal{{id}}.style.display = "block";
-}
-
-span{{id}}.onclick = function() {
-  modal{{id}}.style.display = "none";
-}
-</script>
-{{/each}}
+<script src="/scripts/detail.js"></script>

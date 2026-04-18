@@ -3,24 +3,24 @@ export const currentYear = new Date().getFullYear();
 export const workExperiences = [
   {
     image : "/image/works/Arasaka-Logo.webp",
-    role : "Intern",
+    role : "Intermediate Software Engineer",
     name : "Arasaka",
     task : ["Manage Database", "Bug Hunting"],
-    time : "2026-...."
+    time : "20250-2077"
   },
   {
     image : "/image/works/amd-png-13.png",
     role : "Junior Software Engineer",
     name : "AMD",
     task : ["Bug fixing", "Beta Tester", "Bug Hunting"],
-    time : "2026-...."
+    time : "2030-2050"
   },
   {
     image : "/image/works/Nvidia-Logo.png",
     role : "Intern",
     name : "Nvidia",
     task : ["Beta Tester", "Bug hunting", "Handle Database"],
-    time : "2026-...."
+    time : "2026-2030"
   },
 ]
 

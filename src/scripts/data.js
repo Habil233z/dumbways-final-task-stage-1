@@ -42,3 +42,7 @@ export const myProjects = [
     githubLink : ""
   }
 ]
+
+export const carouselData = [
+  "next-js.png", "ExpressJS.png", "postgresql-logo.png", "nodejs-2-226035.png", "javascript-logo-javascript-icon-transparent-free-png.png", "React-icon.svg.png", "typescript-def.png"
+]

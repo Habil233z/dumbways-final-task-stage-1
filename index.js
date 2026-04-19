@@ -1,6 +1,6 @@
 import express from 'express'
 import { engine } from 'express-handlebars';
-import { myProjects, workExperiences, currentYear } from './src/scripts/data.js';
+import { myProjects, workExperiences, currentYear, carouselData } from './src/scripts/data.js';
 
 const app = express()
 
@@ -18,6 +18,7 @@ app.set("views", "./src/views")
 
 app.get('/', (req, res) => {
   res.render("index", {
+    carouselData: carouselData,
     workExperiences : workExperiences,
     myProjects : myProjects,
     year: currentYear,

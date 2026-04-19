@@ -414,6 +414,10 @@ body{
     margin-bottom: 40px;
 }
 
+.toGithubButton:hover {
+    background-color: gray;
+}
+
 .toGithub {
     margin: 10px;
     border-radius: 5px;

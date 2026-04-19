@@ -80,6 +80,7 @@
     align-items: center;
     flex-direction: column;
     height: auto;
+    background-color: var(--base-color);
 }
 
 .modalInnerbox {

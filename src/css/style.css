@@ -3,7 +3,7 @@
     --workCardAndFooter-color: #EEEEEE;
     --tagAndGithubBorder-color: whitesmoke;
     --footerBorderAndTagBorder-color: gray;
-    --carouselContainerBorder-color: black;
+    --carouselContainerBorder-color: gray;
     --carouser-color: white;
     --text-color: black;
     --cardHover-color: whitesmoke;
@@ -18,7 +18,7 @@
     --workCardAndFooter-color: #25343F;
     --tagAndGithubBorder-color: whitesmoke;
     --footerBorderAndTagBorder-color: gray;
-    --carouselContainerBorder-color: black;
+    --carouselContainerBorder-color: none;
     --carouser-color: whitesmoke;
     --text-color: whitesmoke;
     --cardHover-color: #1B3C53;
@@ -189,6 +189,7 @@ body{
 
 .pContainer {
     margin: 0px;
+    height: 147px;
     margin-bottom: 40px;
 }
 
@@ -280,6 +281,16 @@ body{
 }
 
 #worksExperience {
+    width: 1000px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray ;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#worksExperienceLine {
     border-top: 20px solid gray;
     width: 1002px;
     padding-left: 40px;
@@ -330,6 +341,16 @@ body{
 }
 
 #myProjects {
+    width: 1000px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray ;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#myProjectsLine {
     border-top: 20px solid gray;
     width: 1002px;
     padding-left: 40px;

@@ -1,0 +1,109 @@
+@media (max-width:1081px) {
+
+.navbar {
+    width: 100%;
+}
+
+.navbarButton {
+    display: none;
+}
+
+.main {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+    padding-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#profilePic {
+    height: auto;
+    width: 80%;
+    aspect-ratio: 3/4;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+.introduction {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contents {
+    width: 100%;
+    padding: 0;
+}
+
+.carouselContainer {
+    border: none;
+}
+
+#worksExperience {
+    width: 100%;
+    padding: 0;
+}
+
+#worksExperienceLine {
+    width: 100%;
+    padding: 0;
+}
+
+#myProjects {
+    width: 100%;
+    padding: 0;
+}
+
+#myProjectsLine {
+    width: 100%;
+    padding: 0;
+}
+
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closingWord {
+    margin-bottom: 50px;
+}
+
+.modalContent {
+    width: 70%;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.modalInnerbox {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    padding-bottom:  30%;
+}
+
+.detailImage {
+    height: 90px;
+    aspect-ratio: 16/9;
+}
+
+.tagDetailContainer {
+    flex-wrap: wrap;
+}
+
+.projectTags {
+    margin: 0;
+}
+
+.buttonDetailContainer {
+    margin-top: 20px;
+}
+
+}

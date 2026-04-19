@@ -25,6 +25,11 @@
     transition: 1000ms;
 }
 
+#darkMode:hover {
+    background-color: var(--cardHover-color);
+    border: 1px solid gray;
+}
+
 #darkMode {
     height: 50px;
     width: 50px;
@@ -118,6 +123,12 @@ body{
     align-items: center;
 }
 
+.navbarButton:hover {
+    background-color: var(--cardHover-color);
+    border: 1px solid gray;
+    height: 60px;
+}
+
 .navbarButton {
     height: 50px;
     width: 100px;
@@ -184,6 +195,7 @@ body{
 #location {
     display: flex;
     align-items: center;
+    padding-left: 5px;
 }
 
 #homeIcon {
@@ -199,6 +211,11 @@ body{
     border-radius: 10px;
     padding-top: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reachOutButton:hover {
+    background-color: green;
+    transition: 500ms;
 }
 
 .reachOut {
@@ -262,6 +279,16 @@ body{
     to {translate: -100%;}
 }
 
+#worksExperience {
+    border-top: 20px solid gray;
+    width: 1002px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
 .workExperiencesContainer {
     min-height: 20px;
     padding-top: 10px;
@@ -300,6 +327,16 @@ body{
 .workingTimeArea {
     flex-direction: row-reverse;
     margin-right: 20px;
+}
+
+#myProjects {
+    border-top: 20px solid gray;
+    width: 1002px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
 }
 
 .myProjects {
